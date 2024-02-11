@@ -71,7 +71,8 @@ h1 {
   font-weight: 900;
 }
 
-.button:hover {
+button:hover {
   background-color: inherit;
   border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
