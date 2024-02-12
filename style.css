@@ -71,8 +71,17 @@ h1 {
   font-weight: 900;
 }
 
+button {
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  /* width: 5rem;
+  height: 3rem; */
+}
 button:hover {
   background-color: inherit;
   border: 2px solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
+  cursor: pointer;
 }
