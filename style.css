@@ -31,14 +31,6 @@ dd {
   margin: 0;
 }
 
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
@@ -97,10 +89,14 @@ select {
   --fw-bold: 700;
 
   /* convert 15px into rem */
-  --fs-par: 0.9375;
+  --fs-par: 0.9375rem;
 }
 body {
   background-color: var(--clr-vlight-gray);
+  color: var(--clr-twhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
