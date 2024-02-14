@@ -48,11 +48,6 @@ img {
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
-
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -107,7 +102,7 @@ body {
 }
 
 .sedan {
-  background-color: hsl(31, 77%, 52%);
+  background-color: var(--clr-bright-orange);
   height: 75%;
   width: 20%;
   padding: 48px;
@@ -119,7 +114,7 @@ body {
 }
 
 .suvs {
-  background-color: hsl(184, 100%, 22%);
+  background-color: var(--clr-dark-cyan);
   height: 75%;
   width: 20%;
   padding: 48px;
@@ -129,7 +124,7 @@ body {
 }
 
 .luxury {
-  background-color: hsl(179, 100%, 13%);
+  background-color: var(--clr-vdark-cyan);
   height: 75%;
   width: 20%;
   display: flex;
