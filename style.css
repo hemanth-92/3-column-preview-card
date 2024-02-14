@@ -96,18 +96,17 @@ body {
   padding: 0;
 }
 
-.container {
+.card-wrapper {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
+  max-width: 20rem;
+  margin: 1rem;
 }
 
 .sedan {
   background-color: var(--clr-bright-orange);
-  height: 75%;
-  width: 20%;
-  padding: 48px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -117,9 +116,6 @@ body {
 
 .suvs {
   background-color: var(--clr-dark-cyan);
-  height: 75%;
-  width: 20%;
-  padding: 48px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -127,10 +123,7 @@ body {
 
 .luxury {
   background-color: var(--clr-vdark-cyan);
-  height: 75%;
-  width: 20%;
   display: flex;
-  padding: 48px;
   flex-direction: column;
   justify-content: space-around;
   border-top-right-radius: 10px;
