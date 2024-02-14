@@ -84,7 +84,7 @@ select {
   --fw-bold: 700;
 
   /* convert 15px into rem */
-  --fs-par: 0.9375rem;
+  --fs: 0.9375rem;
 }
 body {
   background-color: var(--clr-vlight-gray);
@@ -92,6 +92,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -141,22 +143,21 @@ img {
 }
 
 p {
-  font-size: 15px;
-  font-weight: 400;
-  font-family: "Lexend Deca", sans-serif;
-  color: hsla(0, 0%, 100%, 0.75);
+  font-size: var(--fs);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-decas);
+  color: var(--clr-vlight-gray);
   line-height: 1.7rem; /* space between lines */
 }
 
 h1 {
-  color: hsl(0, 0%, 95%);
-  font-family: "Big Shoulders Display", sans-serif;
-  color: hsl(0, 0%, 95%);
-  font-weight: 900;
+  color: var(--clr-vlight-gray);
+  font-family: var(--ff-big-shoulders);
+  font-weight: var(--fw-bold);
 }
 
 button {
-  font-size: 15px;
+  font-size: var(--fs);
   font-weight: bold;
   border: none;
   border-radius: 15px;
